@@ -1,6 +1,18 @@
 outs:
-- md5: 84335440885efcd688c0a6cb6f04608a.dir
-  size: 299436906
-  nfiles: 2
-  hash: md5
+- hash: md5
   path: Weights
+  files:
+  - relpath: oocyte_det.pt
+    md5: 244f06560d215fbb6bced943717943be
+    size: 92780693
+    cloud:
+      storage:
+        etag: 08e3e7ca8698fb81031001
+        version_id: '1697480610853859'
+  - relpath: oocyte_seg.pt
+    md5: a02418083f4f77278a1d88a94a11d46b
+    size: 206656213
+    cloud:
+      storage:
+        etag: 08cbfbcb8d98fb81031001
+        version_id: '1697480625552843'
