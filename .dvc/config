@@ -1,0 +1,5 @@
+[core]
+    remote = storage
+['remote "storage"']
+    url = gs://b1-computer-vision/Pearl-3/zp_drilling
+    version_aware = true
